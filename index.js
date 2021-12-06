@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/',(req,res) => {
-    res.send('my node server')
+    res.send('my node server onup')
 })
 app.listen(port,()=>{
     console.log('port count no:',port);
